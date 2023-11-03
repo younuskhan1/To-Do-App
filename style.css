@@ -40,3 +40,34 @@
     font-weight: 900;
     color: white;
 }
+
+#counting {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#increase-decrease {
+    color: purple;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#plus-button {
+    padding: 8px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: purple;
+    font-weight: 900;
+    color: white;
+    margin-right: 10px;
+}
+
+#minus-button {
+    padding: 8px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: purple;
+    font-weight: 900;
+    color: white;
+}
