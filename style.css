@@ -71,3 +71,26 @@
     font-weight: 900;
     color: white;
 }
+
+#main-parents {
+    text-align: center;
+    margin: 50px;
+}
+
+#grand-parents {
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+#parents {
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+#child {
+    border: 2px solid green;
+    border-radius: 15px;
+    padding: 40px;
+}
