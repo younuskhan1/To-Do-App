@@ -14,9 +14,14 @@ function plusButton() {
     plusButton.innerText = counting;
 }
 function minusButton() {
-    counting--;
-    const minusButton = document.getElementById("increase-decrease");
-    minusButton.innerText = counting;
+    if (counting === 0) {
+        return;
+    } else {
+        counting--;
+        const minusButton = document.getElementById("increase-decrease");
+        minusButton.innerText = counting;
+    }
+
 }
 
 document.getElementById("grand-parents").addEventListener("click", function () {
