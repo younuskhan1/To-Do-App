@@ -136,6 +136,7 @@ table {
     width: 80%;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 table,
@@ -143,11 +144,38 @@ th,
 td {
     border: 2px solid black;
     border-collapse: collapse;
-    margin-top: 30px;
 }
 
 .table-head {
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 20px;
+}
+
+#table-container {
+    width: 80%;
+    margin: auto;
+}
+
+.table-row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.table-number1 {
+    width: 27%;
+}
+
+.table-number2 {
+    width: 37%;
+}
+
+.table-button,
+.table-edit {
+    padding: 5px 25px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
 }

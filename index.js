@@ -28,3 +28,31 @@ document.getElementById("parents").addEventListener("click", function () {
 document.getElementById("child").addEventListener("click", function () {
     console.log("child");
 }, false);
+
+let number = 0;
+document.getElementById("input-button").addEventListener("click", function () {
+    const inputField = document.getElementById("input-value");
+    const inputValue = inputField.value;
+    if (inputValue === "") {
+        alert("You have to fill the input field");
+    } else {
+        number++;
+        const tableContainer = document.getElementById("table-container");
+        const tableRow = document.createElement("tr");
+        tableRow.innerHTML = `
+           <td class="table-row table-number1">${number}</td>
+           <td class="table-row table-number2">${inputValue}</td>
+           <td class="table-row"><button class="table-button">Delete</button>
+           <button class="table-edit">Edit</button></td>
+        `
+        tableContainer.appendChild(tableRow);
+        inputField.value = "";
+        const dltButon = document.getElementsByClassName("table-button");
+        for (const buttons of dltButon) {
+            buttons.addEventListener("click", function (event) {
+                event.target.parentNode.parentNode.style.display = "none";
+            })
+        }
+    }
+
+})
