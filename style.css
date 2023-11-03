@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#marry-me {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#question {
+    color: deeppink;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#answer {
+    color: deeppink;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#yes {
+    padding: 8px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: deeppink;
+    font-weight: 900;
+    color: white;
+    margin-right: 10px;
+}
+
+#off-course {
+    padding: 8px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: deeppink;
+    font-weight: 900;
+    color: white;
+}
